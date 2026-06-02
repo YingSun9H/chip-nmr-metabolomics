@@ -1,0 +1,40 @@
+"""Run Cox outcome and repeat-assessment landmark models."""
+
+from __future__ import annotations
+
+import argparse
+import pandas as pd
+from lifelines import CoxPHFitter
+from utils import benjamini_hochberg
+
+
+def fit_cox(df: pd.DataFrame, time_col: str, event_col: str, exposure: str, covariates: list[str]) -> dict:
+    model_df = df[[time_col, event_col, exposure, *covariates]].dropna()
+    cph = CoxPHFitter()
+    cph.fit(model_df, duration_col=time_col, event_col=event_col)
+    row = cph.summary.loc[exposure]
+    return {"outcome": event_col, "exposure": exposure, "n": len(model_df), "events": int(model_df[event_col].sum()), "hr": row["exp(coef)"], "p_value": row["p"]}
+
+
+def main(input_path: str, output_path: str) -> None:
+    df = pd.read_parquet(input_path)
+    exposures = ["chip_any", "chip_large_clone"]
+    outcomes = [c.replace("event__", "") for c in df.columns if c.startswith("event__")]
+    covariates = [c for c in df.columns if c.startswith("covariate__")]
+    rows = []
+    for outcome in outcomes:
+        time_col = f"time__{outcome}"
+        event_col = f"event__{outcome}"
+        for exposure in exposures:
+            rows.append(fit_cox(df, time_col, event_col, exposure, covariates))
+    results = pd.DataFrame(rows)
+    results["fdr"] = results.groupby("exposure")["p_value"].transform(benjamini_hochberg)
+    results.to_csv(output_path, index=False)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", default="derived_data/analysis_cohort_with_scores.parquet")
+    parser.add_argument("--out", default="results/outcome_model_results.csv")
+    args = parser.parse_args()
+    main(args.input, args.out)

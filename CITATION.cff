@@ -1,0 +1,13 @@
+data/
+derived_data/
+results/
+figures/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.RData
+*.xlsx
+__pycache__/
+.DS_Store
