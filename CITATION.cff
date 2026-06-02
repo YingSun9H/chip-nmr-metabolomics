@@ -1,13 +1,31 @@
-data/
-derived_data/
-results/
-figures/
-*.csv
-*.tsv
-*.parquet
-*.feather
-*.rds
-*.RData
-*.xlsx
-__pycache__/
-.DS_Store
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived Zenodo release."
+type: software
+title: "Analysis code for circulating metabolomic signatures of clonal hematopoiesis and cardiometabolic risk"
+authors:
+  - given-names: "Ying"
+    family-names: "Sun"
+  - given-names: "Yuefeng"
+    family-names: "Yu"
+  - given-names: "Yuying"
+    family-names: "Wang"
+  - given-names: "Jiang"
+    family-names: "Li"
+  - given-names: "Xiaoqin"
+    family-names: "Xu"
+  - given-names: "Yingli"
+    family-names: "Lu"
+  - given-names: "Ningjian"
+    family-names: "Wang"
+  - given-names: "Fangzhen"
+    family-names: "Xia"
+version: "1.0.0"
+date-released: "2026-06-02"
+license: "MIT"
+repository-code: "https://github.com/YingSun9H/chip-nmr-metabolomics"
+keywords:
+  - "clonal hematopoiesis"
+  - "CHIP"
+  - "NMR metabolomics"
+  - "UK Biobank"
+  - "cardiometabolic disease"
