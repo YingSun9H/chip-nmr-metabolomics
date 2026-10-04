@@ -1,0 +1,6 @@
+Outcome,Definition
+CHD,Coronary heart disease was defined using UK Biobank first-occurrence fields for ICD-10 I20-I25.
+Stroke,Stroke was defined from UK Biobank first-occurrence fields I60–I64 and I69.
+HF,Heart failure was defined from UK Biobank first-occurrence field I50.
+AF,Atrial fibrillation was defined from UK Biobank first-occurrence field I48.
+CV-related mortality,"Cardiovascular-related mortality was defined as death with a primary or secondary cardiovascular cause coded as ICD-10 I00-I99 in linked death registry records. Follow-up was derived from death date or censoring on July 8, 2024."

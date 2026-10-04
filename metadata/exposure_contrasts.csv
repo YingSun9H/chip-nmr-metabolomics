@@ -1,0 +1,14 @@
+analysis,exposure,reference,handling_of_other_CHIP
+biomarker_MWAS_baseline_repeat_sensitivity,any CHIP,no CHIP,none
+biomarker_MWAS_baseline_repeat_sensitivity,large-clone CHIP,no CHIP plus small-clone CHIP,none
+baseline_lag_period_Cox,any CHIP,no CHIP,none
+baseline_lag_period_Cox,large-clone CHIP,no CHIP plus small-clone CHIP,none
+clone_size_modules,small-clone CHIP,no CHIP,large-clone CHIP excluded
+clone_size_modules,large-clone CHIP,no CHIP,small-clone CHIP excluded
+paired_biomarker_change_Figure3B,large-clone CHIP,no CHIP,small-clone indicator included in the same model
+paired_module_change,any CHIP,no CHIP,none
+paired_module_change,large-clone CHIP,no CHIP,small-clone CHIP excluded
+adjusted_signature_change,any CHIP,no CHIP,none
+adjusted_signature_change,large-clone CHIP,no CHIP plus small-clone CHIP,none
+primary_module_subgroups,any CHIP,no CHIP,primary covariate model only
+driver_biomarkers_modules,gene/group carriers,no CHIP,other CHIP carriers without the selected driver excluded

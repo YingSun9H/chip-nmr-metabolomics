@@ -1,0 +1,53 @@
+module_id,module_label,metabolite_id,metabolite,ukb_field_id,parameter_type,min_nonmissing_metabolites_for_score
+ldl_related,LDL-related module,apolipoprotein_b,Apolipoprotein B,23439,Absolute concentration,5
+ldl_related,LDL-related module,ldl_cholesterol,LDL Cholesterol,23405,Absolute concentration,5
+ldl_related,LDL-related module,clinical_ldl_cholesterol,Clinical LDL Cholesterol,23404,Absolute concentration,5
+ldl_related,LDL-related module,concentration_of_ldl_particles,Concentration of LDL Particles,23429,Particle concentration,5
+ldl_related,LDL-related module,average_diameter_for_ldl_particles,Average Diameter for LDL Particles,23432,Particle size,5
+ldl_related,LDL-related module,total_lipids_in_ldl,Total Lipids in LDL,23425,Absolute concentration,5
+ldl_related,LDL-related module,cholesteryl_esters_in_ldl,Cholesteryl Esters in LDL,23417,Absolute concentration,5
+ldl_related,LDL-related module,free_cholesterol_in_ldl,Free Cholesterol in LDL,23421,Absolute concentration,5
+ldl_related,LDL-related module,phospholipids_in_ldl,Phospholipids in LDL,23413,Absolute concentration,5
+ldl_related,LDL-related module,triglycerides_in_ldl,Triglycerides in LDL,23409,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,apolipoprotein_a1,Apolipoprotein A1,23440,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,hdl_cholesterol,HDL Cholesterol,23406,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,concentration_of_hdl_particles,Concentration of HDL Particles,23430,Particle concentration,5
+hdl_remodeling,HDL remodelling module,average_diameter_for_hdl_particles,Average Diameter for HDL Particles,23433,Particle size,5
+hdl_remodeling,HDL remodelling module,total_lipids_in_hdl,Total Lipids in HDL,23426,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,cholesteryl_esters_in_hdl,Cholesteryl Esters in HDL,23418,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,free_cholesterol_in_hdl,Free Cholesterol in HDL,23422,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,phospholipids_in_hdl,Phospholipids in HDL,23414,Absolute concentration,5
+hdl_remodeling,HDL remodelling module,triglycerides_in_hdl,Triglycerides in HDL,23410,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,total_triglycerides,Total Triglycerides,23407,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,vldl_cholesterol,VLDL Cholesterol,23403,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,concentration_of_vldl_particles,Concentration of VLDL Particles,23428,Particle concentration,5
+tg_rich_vldl,TG-rich / VLDL module,average_diameter_for_vldl_particles,Average Diameter for VLDL Particles,23431,Particle size,5
+tg_rich_vldl,TG-rich / VLDL module,total_lipids_in_vldl,Total Lipids in VLDL,23424,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,triglycerides_in_vldl,Triglycerides in VLDL,23408,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,cholesteryl_esters_in_vldl,Cholesteryl Esters in VLDL,23416,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,free_cholesterol_in_vldl,Free Cholesterol in VLDL,23420,Absolute concentration,5
+tg_rich_vldl,TG-rich / VLDL module,phospholipids_in_vldl,Phospholipids in VLDL,23412,Absolute concentration,5
+fatty_acid_composition,Fatty-acid composition module,degree_of_unsaturation,Degree of Unsaturation,23443,Unsaturation index,5
+fatty_acid_composition,Fatty-acid composition module,docosahexaenoic_acid_to_total_fatty_acids_percentage,Docosahexaenoic Acid to Total Fatty Acids percentage,23457,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,linoleic_acid_to_total_fatty_acids_percentage,Linoleic Acid to Total Fatty Acids percentage,23456,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,monounsaturated_fatty_acids_to_total_fatty_acids_percentage,Monounsaturated Fatty Acids to Total Fatty Acids percentage,23454,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,omega_3_fatty_acids_to_total_fatty_acids_percentage,Omega-3 Fatty Acids to Total Fatty Acids percentage,23451,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,omega_6_fatty_acids_to_omega_3_fatty_acids_ratio,Omega-6 Fatty Acids to Omega-3 Fatty Acids ratio,23459,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,omega_6_fatty_acids_to_total_fatty_acids_percentage,Omega-6 Fatty Acids to Total Fatty Acids percentage,23452,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,polyunsaturated_fatty_acids_to_monounsaturated_fatty_acids_ratio,Polyunsaturated Fatty Acids to Monounsaturated Fatty Acids ratio,23458,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,polyunsaturated_fatty_acids_to_total_fatty_acids_percentage,Polyunsaturated Fatty Acids to Total Fatty Acids percentage,23453,Ratio / percentage,5
+fatty_acid_composition,Fatty-acid composition module,saturated_fatty_acids_to_total_fatty_acids_percentage,Saturated Fatty Acids to Total Fatty Acids percentage,23455,Ratio / percentage,5
+glycolysis_energy,Glycolysis / energy module,citrate,Citrate,23473,Absolute concentration,3
+glycolysis_energy,Glycolysis / energy module,glucose,Glucose,23470,Absolute concentration,3
+glycolysis_energy,Glycolysis / energy module,glucose_lactate,Glucose-lactate,20280,Composite concentration,3
+glycolysis_energy,Glycolysis / energy module,lactate,Lactate,23471,Absolute concentration,3
+glycolysis_energy,Glycolysis / energy module,pyruvate,Pyruvate,23472,Absolute concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,isoleucine,Isoleucine,23465,Absolute concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,leucine,Leucine,23466,Absolute concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,valine,Valine,23467,Absolute concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,total_concentration_of_branched_chain_amino_acids_leucine_isoleucine_valine,Total Concentration of Branched-Chain Amino Acids (Leucine + Isoleucine + Valine),23464,Composite concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,phenylalanine,Phenylalanine,23468,Absolute concentration,3
+bcaa_aromatic_amino_acids,BCAA / aromatic amino-acid module,tyrosine,Tyrosine,23469,Absolute concentration,3
+inflammatory_protein_renal,Inflammatory / protein / renal module,glycoprotein_acetyls,Glycoprotein Acetyls,23480,Absolute concentration,2
+inflammatory_protein_renal,Inflammatory / protein / renal module,albumin,Albumin,23479,Absolute concentration,2
+inflammatory_protein_renal,Inflammatory / protein / renal module,creatinine,Creatinine,23478,Absolute concentration,2

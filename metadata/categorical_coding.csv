@@ -1,0 +1,7 @@
+variable,code,is_reference,missing_handling
+smoking,0,True,Exclude from complete-case models
+smoking,1,False,Exclude from complete-case models
+smoking,2,False,Exclude from complete-case models
+alcohol,1,True,Exclude from complete-case models
+alcohol,2,False,Exclude from complete-case models
+alcohol,3,False,Exclude from complete-case models
